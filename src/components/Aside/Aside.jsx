@@ -24,11 +24,16 @@ const Aside = () => {
 
       <div className="container-card-experience">
         <img className="xp-icon" src={experienceicon} alt="" />
-        <h3>Conheça a Blue</h3>
-        <p>
-          Saiba mais informações sobre a Blue, uma operadora de saúde Health
-          Tech
-        </p>
+        <div className="text-card-container">
+          <h3>Conheça a Blue</h3>
+        </div>
+        <div className="div-text">
+          <p>
+            Saiba mais informações sobre a Blue, uma operadora de saúde Health
+            Tech
+          </p>
+        </div>
+
         <button className="xp-btn">Conhecer</button>
       </div>
     </aside>

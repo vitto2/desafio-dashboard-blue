@@ -1,17 +1,24 @@
 .header {
   grid-area: header;
-  background-color: aquamarine;
-  padding-bottom: 150px;
+  background-color: #ffffff;
+  height: 12vh;
+  display: flex;
+  align-items: center;
 }
 
+.header h1 {
+  margin-left: 30px;
+  font-weight: 600;
+  color: #151D48;
+}
 .main {
   grid-area: main;
 }
 
 .aside {
   grid-area: aside;
-  background-color: #FFFFFF;
-  width: 300px; 
+  background-color: #ffffff;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;

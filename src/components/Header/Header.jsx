@@ -2,9 +2,9 @@ import "./style.css";
 
 const Header = () => {
   return (
-    <div>
-      <h1>HEADER</h1>
-    </div>
+    <header className="header">
+      <h1>Dashboard</h1>
+    </header>
   );
 };
 

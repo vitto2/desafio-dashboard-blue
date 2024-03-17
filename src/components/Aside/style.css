@@ -32,8 +32,7 @@
   transition: 0.5s;
 }
 
-
-.container-menu-leaderboard h2 { 
+.container-menu-leaderboard h2 {
   font-weight: 400;
 }
 
@@ -55,34 +54,46 @@
   background-color: #2500ff;
   border-radius: 15px;
   width: 238px;
-  height: 288px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
   color: white;
   justify-content: space-between;
-
-
+  margin-bottom: 40px;
+  padding: 20px;
 }
 
-.container-card-experience p { 
-  text-align: justify;
-  color: #FFFFFF; 
+.container-card-experience p {
+  color: #ffffff;
   opacity: 80%;
+  font-size: 15px;
+  text-align: justify;
+  hyphens: auto;
 }
 
-
+.container-card-experience h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
 
 .xp-icon {
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
 }
 
-.xp-btn { 
+.xp-btn {
   width: 136px;
   height: 40px;
   border-radius: 10px;
-  color: blue; 
+  color: blue;
   font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.xp-btn:hover {
+  color: #0095ff;
+  cursor: pointer;
+  background: whitesmoke;
 }
