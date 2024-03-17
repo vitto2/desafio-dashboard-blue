@@ -10,18 +10,31 @@
   gap: 20px;
   align-items: center;
   margin-top: 60px;
-  background: #2500FF;
+  background: #2500ff;
   border-radius: 15px;
   width: 255px;
   height: 64px;
-  color: white; 
+  color: white;
   justify-content: center;
   transition: 0.5s;
 }
 
-.container-menu-dash:hover { 
-    background-color: #0095FF;
-    cursor: pointer;
+.container-menu-leaderboard {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 15px;
+  width: 255px;
+  height: 64px;
+  color: #737791;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.container-menu-dash:hover {
+  background-color: #0095ff;
+  cursor: pointer;
 }
 .aside-main-container {
   width: 100%;
