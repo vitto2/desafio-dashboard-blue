@@ -1,5 +1,6 @@
 import "./style.css";
-import SearchBar from './../SearchBar/SearchBar';
+import SearchBar from "./../SearchBar/SearchBar";
+import DropDown from "../DropDownLang/DropDown";
 
 const Header = () => {
   return (
@@ -8,7 +9,10 @@ const Header = () => {
         <h1>Dashboard</h1>
       </div>
       <div>
-      <SearchBar/>
+        <SearchBar />
+      </div>
+      <div>
+        <DropDown />
       </div>
     </header>
   );
