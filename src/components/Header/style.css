@@ -1,1 +1,45 @@
+.header { 
+    display: flex;
+    justify-content: space-around;
+}
 
+
+.notification-icon {
+  background-color: #fffaf1;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.notification-icon:hover {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+}
+
+.notification-icon img {
+  width: 25px;
+}
+
+
+.container-user-profile { 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.container-user-profile img { 
+    width: 60px;
+    height:60px;
+    border-radius: 10px;
+}
+
+
+.container-user-profile 
+h3,
+h5 { 
+    font-size: 15px;
+}
