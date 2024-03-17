@@ -1,9 +1,15 @@
 import "./style.css";
+import SearchBar from './../SearchBar/SearchBar';
 
 const Header = () => {
   return (
     <header className="header">
-      <h1>Dashboard</h1>
+      <div>
+        <h1>Dashboard</h1>
+      </div>
+      <div>
+      <SearchBar/>
+      </div>
     </header>
   );
 };

@@ -1,9 +1,10 @@
 import "./style.css";
-
 const Main = () => {
   return (
-    <main className="container-main">
-      <h1>MAIN SECTION</h1>
+    <main className="main-container">
+      <div>
+        <h3>VENDAS HOJE</h3>
+      </div>
     </main>
   );
 };
