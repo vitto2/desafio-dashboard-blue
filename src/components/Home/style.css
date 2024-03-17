@@ -1,0 +1,25 @@
+.header {
+  grid-area: header;
+  background-color: aquamarine;
+  padding-bottom: 150px;
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside {
+  grid-area: aside;
+  background-color: #FFFFFF;
+  width: 300px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container-main {
+  display: grid;
+  grid-template-areas:
+    "aside header"
+    "aside main";
+}
