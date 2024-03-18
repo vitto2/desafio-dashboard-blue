@@ -1,104 +1,102 @@
 .logo-text-section {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    margin-top: 40px;
-  }
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.container-menu-dash {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  align-items: center;
+  margin-top: 60px;
+  background: #2500ff;
+  border-radius: 15px;
+  color: white;
+  justify-content: center;
+  transition: 0.5s;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container-menu-dash h2 {
+  font-size: 0.9rem;
+}
+.container-menu-leaderboard {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 15px;
+  color: #737791;
+  justify-content: center;
+  transition: 0.5s;
   
-  .container-menu-dash {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 60px;
-    background: #2500ff;
-    border-radius: 15px;
-    max-width: 255px;
-    height: 64px;
-    color: white;
-    justify-content: center;
-    transition: 0.5s;
-  }
-  
-  .container-menu-dash h2 { 
-    font-size: 1.8rem;
-  }
-  .container-menu-leaderboard {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 30px;
-    border-radius: 15px;
-    max-width: 255px;
-    height: 64px;
-    color: #737791;
-    justify-content: center;
-    transition: 0.5s;
-  }
-  
-  .container-menu-leaderboard h2 {
-    font-weight: 400;
-  }
-  
-  .container-menu-dash:hover {
-    background-color: #0095ff;
-    cursor: pointer;
-  }
-  
-  .aside-main-container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 15px;
-    
-    
-  }
-  
-  .container-card-experience {
-    background-color: #2500ff;
-    border-radius: 15px;
-    max-width: 238px;
-    height: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    justify-content: space-between;
-    padding: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .container-card-experience p {
-    color: #ffffff;
-    opacity: 80%;
-    font-size: 15px;
-    text-align: justify;
-    hyphens: auto;
-  }
-  
-  .container-card-experience h3 {
-    font-size: 25px;
-    font-weight: 600;
-  }
-  
-  .xp-icon {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .xp-btn {
-    width: 136px;
-    height: 40px;
-    border-radius: 10px;
-    color: blue;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.5s;
-  }
-  
-  .xp-btn:hover {
-    color: #0095ff;
-    cursor: pointer;
-    background: whitesmoke;
-  }
-  
+}
+
+.container-menu-leaderboard h2 {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.container-menu-dash:hover {
+  background-color: #0095ff;
+  cursor: pointer;
+}
+
+.aside-main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.container-card-experience {
+  background-color: #2500ff;
+  border-radius: 15px;
+  max-width: 238px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container-card-experience p {
+  color: #ffffff;
+  opacity: 80%;
+  font-size: 15px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.container-card-experience h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.xp-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.xp-btn {
+  width: 136px;
+  height: 40px;
+  border-radius: 10px;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.xp-btn:hover {
+  color: #0095ff;
+  cursor: pointer;
+  background: whitesmoke;
+}
