@@ -1,12 +1,12 @@
-import "./App.css";
 import Home from "./components/Home/Home";
+import "./App.css"
 
-function App() {
+const App = () => {
   return (
     <body>
-      <Home/>
+      <Home />
     </body>
   );
-}
+};
 
 export default App;

@@ -1,8 +1,9 @@
-.header { 
-    display: flex;
-    justify-content: space-around;
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  
 }
-
 
 .notification-icon {
   background-color: #fffaf1;
@@ -25,21 +26,21 @@
   width: 25px;
 }
 
+.container-user-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 
-.container-user-profile { 
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.container-user-profile img { 
-    width: 60px;
-    height:60px;
-    border-radius: 10px;
 }
 
+.container-user-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
-.container-user-profile 
-h3,
-h5 { 
-    font-size: 15px;
+.container-user-profile h3,
+h5 {
+  font-size: 15px;
 }
