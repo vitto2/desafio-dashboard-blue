@@ -1,9 +1,11 @@
 import "./style.css";
+import Sales from "../Sales/Sales";
+
 const Main = () => {
   return (
     <main className="main-container">
       <div>
-        <h3>VENDAS HOJE</h3>
+        <Sales />
       </div>
     </main>
   );
