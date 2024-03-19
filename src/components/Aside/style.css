@@ -56,8 +56,6 @@
 .container-card-experience {
   background-color: #2500ff;
   border-radius: 15px;
-  max-width: 238px;
-  height: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,14 +68,14 @@
 .container-card-experience p {
   color: #ffffff;
   opacity: 80%;
-  font-size: 15px;
+  font-size: 12px;
   text-align: justify;
   hyphens: auto;
 }
 
 .container-card-experience h3 {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .xp-icon {
@@ -86,8 +84,7 @@
 }
 
 .xp-btn {
-  width: 136px;
-  height: 40px;
+  padding: 10px 18px; 
   border-radius: 10px;
   color: blue;
   font-weight: bold;

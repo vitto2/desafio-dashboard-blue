@@ -1,9 +1,7 @@
 .container-sales { 
     background-color: #FFFFFF;
-    width: 877px;
-    height: 348px;
     border-radius: 20px;
-    padding: 20px; 
+    padding: 30px; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
