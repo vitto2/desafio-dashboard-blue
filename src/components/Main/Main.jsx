@@ -1,6 +1,9 @@
 import "./style.css";
 import Sales from "../Sales/Sales";
 import Chart from "./../LinesCharts/LineChart";
+import BarChart from "../LinesCharts/BarCharts";
+import VidasChart from "../LinesCharts/VidasCharts";
+import ContratosChart from "../LinesCharts/contratosChart";
 
 const Main = () => {
   return (
@@ -9,9 +12,20 @@ const Main = () => {
         <div>
           <Sales />
         </div>
-        <div className="barChart">
-          <Chart className="chartLine" />
+        <div className="line-chart-container">
+          <Chart className="chartline" />
           <chart />
+        </div>
+      </div>
+      <div className="main-container-div-02">
+        <div className="container-chart">
+          <BarChart />
+        </div>
+        <div className="container-chart">
+          <VidasChart />
+        </div>
+        <div className="container-chart">
+          <ContratosChart />
         </div>
       </div>
     </main>
