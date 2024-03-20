@@ -49,6 +49,7 @@ const chart = () => {
         enabled: true,
       },
     },
+    colors: ['#A700FF', '#EF4444', '#3CD856'],
   };
   return <ApexChart options={options} series={options.series} />;
 };
